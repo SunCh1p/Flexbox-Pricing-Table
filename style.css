@@ -1,0 +1,18 @@
+.pricing-table{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-basis: 100px;
+}
+
+.Plan{
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+@media(max-width: 1250px){
+
+}
