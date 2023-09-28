@@ -1,18 +1,51 @@
+
 .pricing-table{
     font-family:'Courier New', Courier, monospace;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     gap: 20px;
-    flex-basis: 100px;
 }
 
 .Plan{
-    width: 200px;
-    height: 200px;
+    flex: 1;
     background-color: lightgray;
+    text-align: center;
+    flex-direction:column;
+    border-radius: 5px;
+    padding: 10px;
+} 
+
+.title{
+    font-weight: 900;
+    margin-bottom: 10px;
 }
 
-@media(max-width: 1250px){
+.amount{
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 20px
+}
 
+.options{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.button{
+    background-color: coral;
+    color: white;
+    border: None;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+@media(max-width: 400px){
+    .pricing-table{
+        flex-direction: column;
+    }
 }
